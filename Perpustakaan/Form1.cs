@@ -27,7 +27,6 @@ namespace Perpustakaan
 
         private void InitializeDataGridView()
         {
-            // Menambahkan kolom ke DataGridView
             dataGridViewBuku.Columns.Add("Judul", "Judul Buku");
             dataGridViewBuku.Columns.Add("Penulis", "Nama Penulis");
             dataGridViewBuku.Columns.Add("TahunTerbit", "Tahun Terbit");
@@ -86,7 +85,6 @@ namespace Perpustakaan
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            // Validasi input
             if (string.IsNullOrWhiteSpace(txtJudul.Text) ||
                 string.IsNullOrWhiteSpace(txtPenulis.Text) ||
                 string.IsNullOrWhiteSpace(txtTahunTerbit.Text) ||
@@ -105,13 +103,13 @@ namespace Perpustakaan
                 return;
             }
 
-            // Jika semua validasi berhasil, simpan buku ke database
+
             SaveBookToDatabase(txtJudul.Text, txtPenulis.Text, tahunTerbit);
 
-            // Tambahkan buku ke DataGridView
+
             dataGridViewBuku.Rows.Add(txtJudul.Text, txtPenulis.Text, tahunTerbit);
 
-            // Kosongkan input setelah menambah
+
             txtJudul.Clear();
             txtPenulis.Clear();
             txtTahunTerbit.Clear();

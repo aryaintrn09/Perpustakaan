@@ -25,9 +25,7 @@
             this.lblTahunTerbit = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewBuku)).BeginInit();
             this.SuspendLayout();
-            // 
-            // txtJudul
-            // 
+
             this.txtJudul.Location = new System.Drawing.Point(142, 28);
             this.txtJudul.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtJudul.Name = "txtJudul";
@@ -35,9 +33,7 @@
             this.txtJudul.TabIndex = 0;
             this.txtJudul.Enter += new System.EventHandler(this.txtJudul_Enter);
             this.txtJudul.Leave += new System.EventHandler(this.txtJudul_Leave);
-            // 
-            // txtPenulis
-            // 
+
             this.txtPenulis.Location = new System.Drawing.Point(142, 66);
             this.txtPenulis.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtPenulis.Name = "txtPenulis";
@@ -45,9 +41,7 @@
             this.txtPenulis.TabIndex = 1;
             this.txtPenulis.Enter += new System.EventHandler(this.txtPenulis_Enter);
             this.txtPenulis.Leave += new System.EventHandler(this.txtPenulis_Leave);
-            // 
-            // txtTahunTerbit
-            // 
+
             this.txtTahunTerbit.Location = new System.Drawing.Point(142, 103);
             this.txtTahunTerbit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtTahunTerbit.Name = "txtTahunTerbit";
@@ -55,9 +49,7 @@
             this.txtTahunTerbit.TabIndex = 2;
             this.txtTahunTerbit.Enter += new System.EventHandler(this.txtTahunTerbit_Enter);
             this.txtTahunTerbit.Leave += new System.EventHandler(this.txtTahunTerbit_Leave);
-            // 
-            // btnAdd
-            // 
+ 
             this.btnAdd.Location = new System.Drawing.Point(212, 127);
             this.btnAdd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAdd.Name = "btnAdd";
@@ -66,18 +58,14 @@
             this.btnAdd.Text = "Tambah Buku";
             this.btnAdd.UseVisualStyleBackColor = true;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
-            // 
-            // dataGridViewBuku
-            // 
+
             this.dataGridViewBuku.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewBuku.Location = new System.Drawing.Point(9, 162);
             this.dataGridViewBuku.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridViewBuku.Name = "dataGridViewBuku";
             this.dataGridViewBuku.Size = new System.Drawing.Size(477, 140);
             this.dataGridViewBuku.TabIndex = 4;
-            // 
-            // lblJudul
-            // 
+
             this.lblJudul.AutoSize = true;
             this.lblJudul.Location = new System.Drawing.Point(142, 15);
             this.lblJudul.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -85,9 +73,7 @@
             this.lblJudul.Size = new System.Drawing.Size(35, 13);
             this.lblJudul.TabIndex = 5;
             this.lblJudul.Text = "Judul:";
-            // 
-            // lblPenulis
-            // 
+  
             this.lblPenulis.AutoSize = true;
             this.lblPenulis.Location = new System.Drawing.Point(142, 53);
             this.lblPenulis.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -95,9 +81,7 @@
             this.lblPenulis.Size = new System.Drawing.Size(44, 13);
             this.lblPenulis.TabIndex = 6;
             this.lblPenulis.Text = "Penulis:";
-            // 
-            // lblTahunTerbit
-            // 
+
             this.lblTahunTerbit.AutoSize = true;
             this.lblTahunTerbit.Location = new System.Drawing.Point(142, 90);
             this.lblTahunTerbit.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
@@ -105,9 +89,7 @@
             this.lblTahunTerbit.Size = new System.Drawing.Size(71, 13);
             this.lblTahunTerbit.TabIndex = 7;
             this.lblTahunTerbit.Text = "Tahun Terbit:";
-            // 
-            // Form1
-            // 
+
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(497, 325);
